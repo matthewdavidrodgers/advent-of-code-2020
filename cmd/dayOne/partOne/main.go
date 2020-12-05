@@ -11,7 +11,7 @@ import (
 )
 
 func naive() {
-	os.Chdir("./cmd/one")
+	os.Chdir("./cmd/dayOne")
 	data, err := ioutil.ReadFile("./input.txt")
 	if err != nil {
 		log.Fatal(err)
@@ -45,7 +45,7 @@ func naive() {
 }
 
 func optimized() {
-	os.Chdir("./cmd/one")
+	os.Chdir("./cmd/dayOne")
 	data, err := ioutil.ReadFile("./input.txt")
 	if err != nil {
 		log.Fatal(err)
