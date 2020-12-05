@@ -41,7 +41,7 @@ func naive() {
 		}
 	}
 
-	fmt.Println("No entries sum to 2020")
+	fmt.Println("No two entries sum to 2020")
 }
 
 func optimized() {
@@ -81,7 +81,7 @@ func optimized() {
 		}
 	}
 
-	fmt.Println("No entries sum to 2020")
+	fmt.Println("No two entries sum to 2020")
 }
 
 func main() {
